@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convertisseur CDF ↔ USD</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Convertisseur CDF ↔ USD</h1>
+  </header>
+
+  <main>
+    <!-- CDF vers USD -->
+    <section class="card">
+      <h2>Franc Congolais → Dollar Américain</h2>
+      <input type="number" id="amountCDF" placeholder="Montant en CDF">
+      <button onclick="convertCDFtoUSD()">Convertir en USD</button>
+      <p id="resultCDFtoUSD">Résultat : --</p>
+    </section>
+
+    <!-- USD vers CDF -->
+    <section class="card">
+      <h2>Dollar Américain → Franc Congolais</h2>
+      <input type="number" id="amountUSD" placeholder="Montant en USD">
+      <button onclick="convertUSDtoCDF()">Convertir en CDF</button>
+      <p id="resultUSDtoCDF">Résultat : --</p>
+    </section>
+  </main>
+</body>
+</html>
