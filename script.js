@@ -1,5 +1,5 @@
 // Taux de conversion
-const tauxCDF = 2900; // 1 USD = 2800 CDF
+const tauxCDF = 2900;// 1 USD = 2900 CDF
 
 // CDF -> USD
 function convertCDFtoUSD() {
